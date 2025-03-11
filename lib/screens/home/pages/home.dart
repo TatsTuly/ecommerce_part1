@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:icons_plus/icons_plus.dart';
+import '../../../common/widget/appbar.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -6,15 +8,9 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          "Mega Dokan",
-          style: TextStyle(
-            fontFamily: "DMSans",
-            fontWeight: FontWeight.w700,
-          ),
-        ),
-        centerTitle: true,
+      appBar: FAppBar(
+        title: "Mega Dokan",
+        firsticon: Iconsax.notification_bing_outline,
       ),
     );
   }
