@@ -11,6 +11,7 @@ class Home extends StatelessWidget {
       appBar: FAppBar(
         title: "Mega Dokan",
         firsticon: Iconsax.notification_bing_outline,
+        backbutton: true,
       ),
     );
   }

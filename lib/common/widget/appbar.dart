@@ -8,15 +8,18 @@ class FAppBar extends StatelessWidget implements PreferredSizeWidget {
     required this.title,
     required this.firsticon,
     this.secondicon = HeroIcons.shopping_cart,
+    this.backbutton=false,
   });
   final String title;
   final IconData firsticon;
   final IconData secondicon;
+  final bool backbutton;
   @override
   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
   @override
   Widget build(BuildContext context) {
     return AppBar(
+        leading: backbutton ? Icon(Iconsax.arrow_left_2_outline):null,
         elevation: 5,
         backgroundColor: Colors.white,
         title: Text(
