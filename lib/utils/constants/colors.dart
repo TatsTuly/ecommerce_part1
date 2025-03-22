@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Fcolors {
-  //primary
-  static const primaryGreenOcean = Color(0xFF5CC936);
+class FColors {
+  //Primary
+  static const primary = Color(0xFF5CC936);
   static const primaryOrange = Color(0xFFFFC120);
-  static const primaryNavyBlack = Color(0xFF0C1A30);
-  static const primarywHITE = Color(0xFFFFFFFF);
+  static const primaryNavy = Color(0xFF0C1A30);
+  static const pureWhite = Color(0xFFFFFFFF);
 
   // Secondary
   static const secondary = Color(0xFF3A9B7A);
@@ -22,4 +22,5 @@ class Fcolors {
 
   // Font Colors
   static const oceanBlue = Color(0xFF3669C9);
+
 }

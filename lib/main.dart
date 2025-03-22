@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
-
-import 'screens/home/pages/home.dart';
+import 'screens/home/page/home.dart';
 
 void main() {
-  runApp(const Freebeis());
+  runApp(const FreebeesEcom());
 }
 
-class Freebeis extends StatelessWidget {
-  const Freebeis({super.key});
+class FreebeesEcom extends StatelessWidget {
+  const FreebeesEcom({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FreeBeis E-com',
+      title: "Freebees E-com",
       home: Home(),
     );
   }
 }
+// tinyurl.com/cse414-figma
+// Splash Screen

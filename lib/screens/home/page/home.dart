@@ -1,9 +1,9 @@
 // Home.dart
 
+import 'package:ecommerce_part1/screens/home/page/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/common/widget/appbar.dart';
-import 'package:flutter_application_1/screens/home/page/home_screen.dart';
-import 'package:flutter_application_1/screens/home/widgets/bottom_nav_bar.dart';
+import 'package:ecommerce_part1/common/widget/appbar.dart';
+import 'package:ecommerce_part1/screens/home/widget/bottom_nav_bar.dart';
 import 'package:icons_plus/icons_plus.dart';
 
 class Home extends StatefulWidget {
